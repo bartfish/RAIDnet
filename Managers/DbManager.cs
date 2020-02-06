@@ -412,7 +412,7 @@ namespace RAIDnet.Managers
         private static string LoadPreparedSqlQueryForDbCreation(string sqlDirectoryToModify, string dbName, string serverDirectory)
         {
             string script = File.ReadAllText(sqlDirectoryToModify);
-            script = script.Replace("fmWebApp", dbName);
+            script = script.Replace("NAME_OF_THE_DATABASE_FROM_CREATE_DATABASE_QUERY_WHICH_IS_TO_BE_REPLACED", dbName);
             script = script.Replace("SERVER_DIRECTORY\\", serverDirectory);
 
             return script;

@@ -13,4 +13,9 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,5 @@
 # RAIDnet
-DotNet framework allowing for implementation of RAID into any .NET database-based application
+DotNet framework allowing for implementation of RAID 0+1 into any .NET database-based application
 
 
 # What is it exactly?
